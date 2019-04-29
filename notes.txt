@@ -1,0 +1,20 @@
+content: content of the element
+padding: distance from content of element from the border
+border: surrounds padding and content
+margin: distance from element to other elements
+
+block level elements take the full width of their containing element
+
+Class vs ID selectors:
+Classes are re-usable and allow you to name things for styling purposes only.
+IDs are only used once-per-page and have a non-CSS meaning (on-page link).
+
+!important
+Overwrites specifity on all other selectors.
+
+not()
+:not(p) {
+  //styles here
+}
+excludes the selectors included in the parenthesis.
+
